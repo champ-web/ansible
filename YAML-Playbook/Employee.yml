@@ -1,0 +1,14 @@
+#YAML
+---
+- hosts: all
+  become: yes
+  tasks: 
+
+  - name: install apache server
+    apt:
+  - name: install apache
+    state: present
+    
+     
+   
+
